@@ -1,0 +1,97 @@
+/* This adds a charcoal (#2e2b28) colour as the background colour to the menu bar*/
+.topnav {
+  background-color: #2e2b28;
+  overflow: hidden;
+}
+
+/* This section defines the colour of the text for each of the navigational links, then it identifies that the text should align to the center, with 10px padding, thereafter identifies it is to be underlined. The font size will be 26px using the font Cinzel, serif. This styles the text.*/
+.topnav a {
+  margin: 0 auto;  
+  color: #d6d4d2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: Cinzel, serif;
+}
+
+/*This section of HTML makes the colours of the menu bar change when the mouse is on them*/
+.topnav a:hover {
+  background-color: #d6d4d2;
+  color: #2e2b28;
+  text-decoration: underline;
+}
+
+/* This adds a colour to the link which is currently being used*/
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.row{
+	display: flex;
+}
+
+/* This makes a row which is for the header */
+.header_row {
+  flex: 50%;
+  padding: 10px;
+  height: 100px;
+}
+
+
+/* This makes 2 column which are in line with each other */
+.question_coulmun {
+  flex: 50%;
+  padding: 10px;
+  height: 160px;
+}
+
+.icons{
+	flex: 1.50;
+}
+
+/* This makes 2 column which are in line with each other */
+.options {
+  flex: 50%;
+  padding: 10px;
+  height: 820px;
+}
+
+
+.button {
+  border: none;
+  color: #aaa;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #aaa; 
+  color: black; 
+  border: 2px solid #ccc;
+}
+
+.button1:hover {
+  background-color: #ccc;
+  color: white;
+  border: 2px solid #aaa;
+}
+
+.button2 {
+  background-color: #ccc; 
+  color: black; 
+  border: 2px solid #aaa;
+}
+
+.button2:hover {
+  background-color: #aaa;
+  color: white;
+  border: 2px solid #ccc;
+}

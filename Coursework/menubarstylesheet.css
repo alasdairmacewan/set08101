@@ -1,0 +1,29 @@
+/* This adds a charcoal (#2e2b28) colour as the background colour to the menu bar*/
+.topnav {
+  background-color: #2e2b28;
+  overflow: hidden;
+}
+
+/* This section defines the colour of the text for each of the navigational links, then it identifies that the text should align to the center, with 10px padding, thereafter identifies it is to be underlined. The font size will be 26px using the font Cinzel, serif. This styles the text.*/
+.topnav a {
+  margin: 0 auto;  
+  color: #d6d4d2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: Cinzel, serif;
+}
+
+/*This section of HTML makes the colours of the menu bar change when the mouse is on them*/
+.topnav a:hover {
+  background-color: #d6d4d2;
+  color: #2e2b28;
+  text-decoration: underline;
+}
+
+/* This adds a colour to the link which is currently being used*/
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}

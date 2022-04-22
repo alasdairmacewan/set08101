@@ -1,0 +1,95 @@
+/* This adds a charcoal (#2e2b28) colour as the background colour to the menu bar*/
+.topnav {
+  background-color: #2e2b28;
+  overflow: hidden;
+}
+
+/* This section defines the colour of the text for each of the navigational links, then it identifies that the text should align to the center, with 10px padding, thereafter identifies it is to be underlined. The font size will be 26px using the font Cinzel, serif. This styles the text.*/
+.topnav a {
+  margin: 0 auto;  
+  color: #d6d4d2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: Cinzel, serif;
+}
+
+/*This section of HTML makes the colours of the menu bar change when the mouse is on them*/
+.topnav a:hover {
+  background-color: #d6d4d2;
+  color: #2e2b28;
+  text-decoration: underline;
+}
+
+/* This adds a colour to the link which is currently being used*/
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.row{
+	display: flex;
+}
+.icons{
+	flex: 1.50;
+}
+
+.plane {
+  width: 200px;
+  height: 200px;
+  background: url('home_page_images/white_plane.jpg') no-repeat;
+  background-size: contain;
+}
+
+.plane:hover {
+  background: url('home_page_images/black_plane.jpg') no-repeat;
+  background-size: contain;
+}
+
+.train {
+  width: 200px;
+  height: 200px;
+  background: url('home_page_images/TrainBlackBackground.jpg') no-repeat;
+  background-size: contain;
+}
+
+.train:hover {
+  background: url('home_page_images/TrainWhiteBackground.jpg') no-repeat;
+  background-size: contain;
+}
+
+.bus {
+  width: 170px;
+  height: 200px;
+  background: url('home_page_images/bus2.jpg') no-repeat;
+  background-size: contain;
+}
+
+.bus:hover {
+  background: url('home_page_images/bus1.jpg') no-repeat;
+  background-size: contain;
+}
+
+/* This makes 2 column which are in line with each other */
+.Column_traveling {
+  flex: 50%;
+  padding: 10px;
+  height: 380px;
+}
+
+/* This makes 2 column which are in line with each other */
+.Column_for_safety {
+  flex: 50%;
+  padding: 10px;
+  height: 780px;
+}
+
+/* This makes 2 column which are in line with each other */
+.Column_for_videos {
+  flex: 50%;
+  padding: 10px;
+  height: 550px;
+}
+
+
